@@ -1398,3 +1398,162 @@ footer {
     height: 70vh;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Sub-Header Styles */
+.sub-header {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.sub-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info span {
+  margin-right: 25px;
+}
+
+.contact-info i {
+  color: #f35525;
+  margin-right: 8px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #cdcdcd;
+  color: #fff;
+  border-radius: 50%;
+  margin-left: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #f35525;
+}
+
+/* Main Header Styles */
+.main-header {
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-weight: 600;
+  margin: 0 18px;
+  transition: 0.3s;
+}
+
+.nav-menu a.active, .nav-menu a:hover {
+  color: #f35525;
+}
+
+.btn-schedule {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 20px 8px 8px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-schedule .icon {
+  width: 35px;
+  height: 35px;
+  background-color: #f35525;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  position: relative;
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1600') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.badge {
+  background-color: #fff;
+  display: inline-block;
+  padding: 6px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.badge span {
+  color: #f35525;
+}
+
+.hero-content h1 {
+  color: #fff;
+  font-size: 52px;
+  line-height: 1.1;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.slider-nav.prev { left: 30px; }
+.slider-nav.next { right: 30px; }
