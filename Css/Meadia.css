@@ -1,0 +1,55 @@
+@media (max-width:1024px) {
+    .li {
+        position: absolute;
+        right: 3rem;
+    }
+
+    .logo {
+        position: absolute;
+        left: 2rem;
+    }
+
+    header {
+        height: 25vh;
+    }
+
+    .top-header {
+        height: 10vh;
+    }
+
+    .banner {
+        height: 125vh;
+    }
+
+    .previous-arrow {
+        height: 125vh;
+    }
+
+    .next-arrow {
+        height: 125vh;
+    }
+    .Featured-detail {
+    width: 25%;
+    height: 95vh;
+    }
+    .Achievement-info {
+        bottom: -89px;
+    }
+    .Achievement-info .info {
+    width: 26%;
+    }
+    .deal-info-button {
+    width: 52%;
+    }
+    .Deal{
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:425px) {}
+
+@media (max-width:375px) {}
+
+@media (max-width:320px) {}
